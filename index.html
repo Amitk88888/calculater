@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Mr+Dafoe&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Calculator</h1>
+        
+        <!-- Display Screen -->
+        <div class="display-container">
+            <input type="text" id="display" class="display" placeholder="0" readonly>
+        </div>
+
+        <!-- Buttons -->
+        <div class="buttons">
+            <button class="btn" data-value="AC">AC</button>
+            <button class="btn" data-value="DEL">DEL</button>
+            <button class="btn" data-value="%">%</button>
+            <button class="btn" data-value="/">/</button>
+            <button class="btn" data-value="7">7</button>
+            <button class="btn" data-value="8">8</button>
+            <button class="btn" data-value="9">9</button>
+            <button class="btn" data-value="*">*</button>
+            <button class="btn" data-value="4">4</button>
+            <button class="btn" data-value="5">5</button>
+            <button class="btn" data-value="6">6</button>
+            <button class="btn" data-value="-">-</button>
+            <button class="btn" data-value="1">1</button>
+            <button class="btn" data-value="2">2</button>
+            <button class="btn" data-value="3">3</button>
+            <button class="btn" data-value="+">+</button>
+            <button class="btn" data-value="0">0</button>
+            <button class="btn" data-value=".">.</button>
+            <button class="btn" data-value="00">00</button>
+            <button class="btn equals" data-value="=">=</button>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer"><p>Amit Kamble</p></div>
+
+
+    </div>
+
+    <div class="signature-container">
+        <div class="signature">Amit Kamble</div>
+        <div class="date" id="currentDate">03/03/2025</div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
